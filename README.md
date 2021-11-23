@@ -11,12 +11,11 @@ You must have node installed on your pc
 pa11y('https://yourwesite.com/').then((results) => {
     console.log(results)
 });
-
 ```
 
 ### Additional opts
 To add additional opts to pa11y tests use below
 * To add user actions `actions['set field #email to test@testemail.com']`
-* To run the tests against specific standard use `standard: 'WCAG2AA'`,
-* To ignore specific rule while performing test use `ignore:['WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail']`
-* To capture the screenshot of page use `screenCapture: './login-screen-capture.png'`
+* To run the tests against specific standard `standard: 'WCAG2AA'`,
+* To ignore a rule in tests `ignore:['WCAG2AA.Principle4.Guideline4_1.4_1_1.F77']`
+* To capture the screenshot of page `screenCapture: './login-screen-capture.png'`
