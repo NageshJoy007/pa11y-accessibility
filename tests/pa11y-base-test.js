@@ -17,3 +17,22 @@ pa11y('https://yourwesite.com/', {
     }).then((results) => {
        console.log(results)
 });
+
+pa11y('https://yourwesite.com/', {
+    actions:[
+       `click element .productitem--title`,
+       `wait for element .product-form--atc-button to be visible`],
+    standard: 'WCAG2AA',
+    ignore: [
+        'WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent'],
+    screenCapture: `${__dirname}/product-screen-capture-mob.png`,
+    viewport: {
+      width: 320,
+      height: 480,
+      deviceScaleFactor: 2,
+      isMobile: true
+    },
+    hideElements: '#optanon-popup-more-info-bar'
+    }).then((results) => {
+       console.log(results)
+});

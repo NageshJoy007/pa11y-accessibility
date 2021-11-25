@@ -20,3 +20,4 @@ To add additional opts to pa11y tests use below
 * To ignore a rule in tests `ignore:['WCAG2AA.Principle4.Guideline4_1.4_1_1.F77']`
 * To capture the screenshot of page `screenCapture: './login-screen-capture.png'`
 * To hide an element from test `hideElements: '#optanon-popup-more-info-bar'`
+* To test mobile view `viewport: {width: 320, height: 480, deviceScaleFactor: 2,isMobile: true}`
