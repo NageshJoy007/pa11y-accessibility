@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/NageshJoy007/pa11y-accessibility#readme",
   "devDependencies": {
-    "pa11y-ci": "^2.4.2"
+    "pa11y-ci": "^2.4.2",
+    "pa11y-reporter-html": "^2.0.0"
   }
 }
