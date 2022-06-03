@@ -4,7 +4,7 @@
   "description": "You must have node installed on your pc To clone the project `git clone <repoPath>` To get the dependencies `npm install` To run the tests `node <path of the test.js file>`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/pa11y-puppeeteer-reuse-test.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/NageshJoy007/pa11y-accessibility#readme",
   "devDependencies": {
-    "pa11y-ci": "^2.4.2",
+    "pa11y-ci": "^3.0.1",
     "pa11y-reporter-html": "^2.0.0"
   }
 }
