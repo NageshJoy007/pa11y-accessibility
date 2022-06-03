@@ -40,5 +40,5 @@ fs.writeFile(`${__dirname}/loginpage-report.html`, html, (err) => {
 ```
 
 ## run
-`node node tests/pa11y-base-test.js`
-`npm run test`
+* `node node tests/pa11y-base-test.js`
+* `npm run test`
